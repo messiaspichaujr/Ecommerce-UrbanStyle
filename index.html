@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanStyle - Moda Urbana Premium</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <!---Main--->
+
+  <div class="loading"></div>
+
+  <div class="notification">
+    <i class="fas fa-check-circle"></i>
+    <span class="notification-text">Item adicionado ao carrinho!</span>
+  </div>
+
+  <nav class="navbar">
+    <div class="logo">
+      <i class="fas fa-tshirt"></i>
+      <span>UrbanStyle</span>
+    </div>
+
+    <div class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#">Masculino</a>
+      <a href="#">Feminino</a>
+      <a href="#">Coleções</a>
+      <a href="#">Sobre</a>
+    </div>
+
+    <div class="nav-actions">
+      <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Pesquisar produtos..." class="search-input">
+      </div>
+
+      <button class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+
+      <div class="cart-icon-container">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count">0</span>
+        
+        <div class="cart-dropdown">
+          <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <span class="close-cart"><i class="fas fa-times"></i></span>
+          </div>
+          
+          <div class="cart-items">
+            <div class="empty-cart">
+              <i class="fas fa-shopping-bag"></i>
+              <p>Seu carrinho está vazio</p>
+            </div>
+          </div>
+          
+          <div class="cart-footer">
+            <div class="cart-total">
+              <span>Total:</span>
+              <span class="total-price">R$0.00</span>
+            </div>
+            <button class="checkout-btn">Finalizar Compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Coleção Outono/Inverno 2025</h1>
+      <p>Descubra peças exclusivas que combinam conforto e estilo</p>
+      <button class="cta-btn">Ver Coleção</button>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+
+  <section class="products-section">
+    <div class="section-header">
+      <h2>Nossos Destaques</h2>
+      <div class="category-filter">
+        <button class="category-btn active" data-category="all">Todos</button>
+        <button class="category-btn" data-category="clothing">Roupas</button>
+        <button class="category-btn" data-category="shoes">Calçados</button>
+        <button class="category-btn" data-category="accessories">Acessórios</button>
+      </div>
+    </div>
+
+    <div class="products-grid">
+      <!-- Produtos via JavaScript -->
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="newsletter-content">
+      <h2>Receba Ofertas Exclusivas</h2>
+      <p>Assine nossa newsletter e receba 15% de desconto na primeira compra</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Seu melhor e-mail" required>
+        <button type="submit">Assinar <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>UrbanStyle</h3>
+        <p>Moda urbana premium para quem busca estilo e qualidade.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Links Úteis</h3>
+        <ul>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Nossas Lojas</a></li>
+          <li><a href="#">Trocas e Devoluções</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Atendimento</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+          <li><i class="fas fa-envelope"></i> contato@urbanstyle.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> São Paulo - SP</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 UrbanStyle. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/product.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
