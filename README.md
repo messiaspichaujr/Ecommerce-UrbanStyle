@@ -1,6 +1,6 @@
 # 🛍️ UrbanStyle - E-commerce de Moda Premium  
 
-Projeto de um e-commerce moderno e responsivo focado em moda urbana, desenvolvido com HTML, CSS e JavaScript puro.  
+Projeto de uma Home de um e-commerce moderno e responsivo focado em moda urbana, desenvolvido com HTML, CSS e JavaScript puro.  
 
 ## ✨ **Recursos**  
 ✅ **Design premium** com gradientes, sombras e animações fluidas  
