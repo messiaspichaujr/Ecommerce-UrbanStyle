@@ -1,4 +1,4 @@
-# 🛍️ UrbanStyle - E-commerce de Moda Premium  
+# 🛍️ UrbanStyle
 
 Projeto de uma Home de um e-commerce moderno e responsivo focado em moda urbana, desenvolvido com HTML, CSS e JavaScript puro.  
 
